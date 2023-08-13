@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895d672d535763b41adf37221d1e2b1f, type: 3}
+  m_Name: Turret_4
+  m_EditorClassIdentifier: 
+  turretName: 
+  turretSprite: {fileID: 21300000, guid: 78586a6ad474c4c4382a0e2f7447b475, type: 3}
+  maxLevel: 5
+  damage:
+  - 100
+  - 100
+  - 100
+  - 100
+  - 100
+  reloadTime: 2
+  bulletPrefabs: {fileID: 5676927897287911928, guid: e2ac278192cfd6544b9a3299bbd56008,
+    type: 3}
+  maxRange: 40
+  price: 40
+  unlockMoney: 000000000a000000140000002800000050000000
+  upgradePrice: 05000000140000003200000064000000c8000000

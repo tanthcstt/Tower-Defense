@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dff8fd78a20c944ab3145dcd6e3146b, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  level: 3
+  maxEnemy: 10
+  enemies:
+  - enemyType: 0
+    HP: 50
+    dropMoney: 50
+    prefab: {fileID: 3857193283393087195, guid: 7b6be25daf8bef440ac9aabb0ec4cdb2,
+      type: 3}
+    rate: 1
+  rewardKey: 20
+  rewardDiamon: 2
+  initMoney: 400
