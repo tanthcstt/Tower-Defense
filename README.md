@@ -1,5 +1,5 @@
 # Tower-Defense
-Dowload (CH Play):
+Dowload (CH Play): (Đang chờ duyệt)
 
 Hướng dẫn:
 - Ở Turet Collection bấm vào các trụ để mở khóa các cấp độ mới
