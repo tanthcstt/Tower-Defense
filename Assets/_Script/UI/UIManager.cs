@@ -40,11 +40,20 @@ public class UIManager : MonoBehaviour
             return; 
         }
 
-     
+        for (int i = 0; i < Input.touchCount; i++)
+        {
+            Touch touch = Input.GetTouch(i);
+            if (touch.phase == TouchPhase.Began && !EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+            {
+                turretInfoUI.SetActive(false);
+            }
+        }
+
+
 
     }
 
-  
+
 
 
 }

@@ -7,9 +7,10 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance { get; private set; }
     [SerializeField] protected List<SOLevelData> levelData = new List<SOLevelData>();
+    
     public int Level { get; private set; }  
 
-   
+    public int GetLevelAmount() { return levelData.Count; }
   
 
     public SOLevelData GetLevelData()

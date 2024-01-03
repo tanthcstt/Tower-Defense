@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class UITurretInfo : MonoBehaviour
 {
-    [SerializeField] protected Image img;
+    [SerializeField] protected Image turretImage;
     [SerializeField] protected TextMeshProUGUI upgradePriceTxt;
     [SerializeField] protected Button upgradeButton;
     [SerializeField] protected Image upgradeBtnImage;
@@ -49,6 +49,9 @@ public class UITurretInfo : MonoBehaviour
             {
                 upgradeBtnImage.color = Color.gray;    
             }
+
+            //load turret image
+            turretImage.sprite = data.general.turretSprite;
 
         }
     }

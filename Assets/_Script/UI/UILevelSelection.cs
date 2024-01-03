@@ -18,7 +18,7 @@ public class UILevelSelection : MonoBehaviour
 
     protected void LoadButton()
     {
-        int unlockedLevel = LevelManager.Instance.Level; // the highest level unlocked
+        int unlockedLevel = LevelManager.Instance.GetLevelAmount(); // the highest level unlocked
         for (int i = 0; i < btnContent.childCount;i++)
         {
             Transform loadLevelButton = btnContent.GetChild(i).GetChild(0);
